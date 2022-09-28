@@ -17,6 +17,6 @@
         <h2>View Note</h2>
         Title: <input type="text" name="title" value="${note.title}"><br>
         Content: <input type ="text" name="title" value="${note.content}"><br>
-        <p><a href="note?edit">Edit</a></p>
+        <a href="note?edit" name="edit">Edit</a>
     </body>
 </html>
